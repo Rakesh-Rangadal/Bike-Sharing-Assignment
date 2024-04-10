@@ -12,9 +12,9 @@ the variables are significant in predicting the demand for shared bikes. and how
 
 
 ## Table of Contents
-**Step 1: Reading and Understanding the Data** 
-**Step 2: Visualising the Data**
-**Step 3: Data Preparation**
+ **Step 1: Reading and Understanding the Data** .
+ **Step 2: Visualising the Data**.
+ **Step 3: Data Preparation**
 **Step 4: Splitting the Data into Training and Testing Sets**
 **Step 5 :Rescaling the Features**
 **Step 6: Building a linear model**
@@ -22,7 +22,7 @@ the variables are significant in predicting the demand for shared bikes. and how
 	Model 2:Removing the variable 'hum' based on its High VIF
 	Model 3:Removing the variable "workingday" based on its Very High 'VIF' value. Even though the VIF of workingday is second highest, we decided to drop 'Workingday' and not 'temp' 
           based on general knowledge that temperature can be an important factor for a business like bike rentals, and wanted to retain 'temp'. 
-	Model 4:Removing the variable "weekday_Saturday" based on its Very High 'P' value. Even though the VIF of workingday is second highest, we decided to drop 'Workingday' and not 'temp' based on general knowledge that temperature can be an important factor for a business like bike rentals, and wanted to 		retain 'temp'
+	Model 4:Removing the variable "weekday_Saturday" based on its Very High 'P' value. Even though the VIF of workingday is second highest, we decided to drop 'Workingday' and not 'temp' based on general knowledge that temperature can be an important factor for a business like bike rentals, and wanted to 	retain 'temp'
 
 **Step 7: Residual Analysis of the train data**	   In order to check if the error terms are also normally distributed (which is infact, one of the major 	   assumptions of linear regression), let us plot the histogram of the error terms and see what it looks like.
 
@@ -60,7 +60,7 @@ weathersit_Light Snow & Rain (−0.2864)
 
 Hence, it can be clearly concluded that the variables year, temperature , and weathersit are significant in predicting the demand for shared bikes .
 
-Final Recommendations for the Company:
+## Final Recommendations for the Company:
 
 The months - Jan , Jul , Sep , Nov , Dec should be considered by the company as they have a higher demand as compared to other months. With an increase in temperature the demand also increases, hence it should keep track of the weather conditions. During the Winter season the demand rises, hence it should be well prepared to meet the high demand.
 
